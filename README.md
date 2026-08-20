@@ -74,17 +74,54 @@ Set-Content -Path README.md -Value @'
     </tr>
   </tbody>
 </table> 
-📂 Repository File Tree
-retail-demand-forecasting-ml/
-│
-├── app.py                     # Main full-stack Streamlit web application
-├── retail_store_inventory.csv # Historical dataset (73,100 rows × 15 features)
-├── retail_demand_model.pkl    # Serialized trained Tree-Ensemble model
-├── model_features.pkl         # Encoded feature column list
-├── category_mappings.pkl      # Categorical dropdown metadata
-├── requirements.txt           # Environment dependencies
-└── README.md                  # Project documentation
+ ### 📂 Repository File Tree
 
+<table>
+  <thead>
+    <tr>
+      <th align="left">File / Resource</th>
+      <th align="left">Type</th>
+      <th align="left">Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code>app.py</code></td>
+      <td>Application Core</td>
+      <td>Main full-stack Streamlit dashboard, data processing, and UI pipeline</td>
+    </tr>
+    <tr>
+      <td><code>retail_store_inventory.csv</code></td>
+      <td>Data Asset</td>
+      <td>Historical transactional records (73,100 rows × 15 operational features)</td>
+    </tr>
+    <tr>
+      <td><code>retail_demand_model.pkl</code></td>
+      <td>Trained Weights</td>
+      <td>Serialized Gradient Boosting / XGBoost regression inference model</td>
+    </tr>
+    <tr>
+      <td><code>model_features.pkl</code></td>
+      <td>Metadata</td>
+      <td>Encoded feature column indices for one-hot vector alignment</td>
+    </tr>
+    <tr>
+      <td><code>category_mappings.pkl</code></td>
+      <td>Metadata</td>
+      <td>Serialized store, region, and category mapping dictionaries</td>
+    </tr>
+    <tr>
+      <td><code>requirements.txt</code></td>
+      <td>Configuration</td>
+      <td>Python dependencies specification file for production deployment</td>
+    </tr>
+    <tr>
+      <td><code>README.md</code></td>
+      <td>Documentation</td>
+      <td>Project overview, system architecture flowchart, and setup guide</td>
+    </tr>
+  </tbody>
+</table>
 ---
 
 ### 🔄 System Architecture & Data Pipeline
