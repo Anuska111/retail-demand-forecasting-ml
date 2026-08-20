@@ -13,11 +13,34 @@ Set-Content -Path README.md -Value @'
 
 </div>
 
-🖥️ Dashboard Architecture & Tab Modules
-Module Tab,Core Functionality,Primary Tech / Output
-🚀 AI Demand Forecasting,Real-time demand inference with interactive capacity gauge & live stockout warnings,"XGBoost / Scikit-Learn, Audio API, Gauge"
-🌐 3D Inventory Matrix,"3D multidimensional cluster plots across categories, price elasticities, and store limits",Plotly Express 3D Scatter Engine
-📊 Analytics & Simulation,"Price sensitivity simulations, competitor pricing index, and historical trends",Dynamic Elasticity Curve Models
+### 🖥️ Dashboard Architecture & Tab Modules
+
+<table>
+  <thead>
+    <tr>
+      <th align="left">Module Tab</th>
+      <th align="left">Core Functionality</th>
+      <th align="left">Primary Tech / Output</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><b>🚀 AI Demand Forecasting</b></td>
+      <td>Real-time demand inference with interactive capacity gauge & live stockout warnings</td>
+      <td><code>XGBoost</code> / <code>Scikit-Learn</code>, Audio API, Gauge</td>
+    </tr>
+    <tr>
+      <td><b>🌐 3D Inventory Matrix</b></td>
+      <td>3D multidimensional cluster plots across categories, price elasticities, and store limits</td>
+      <td>Plotly Express 3D Scatter Engine</td>
+    </tr>
+    <tr>
+      <td><b>📊 Analytics & Simulation</b></td>
+      <td>Price sensitivity simulations, competitor pricing index, and historical trends</td>
+      <td>Dynamic Elasticity Curve Models</td>
+    </tr>
+  </tbody>
+</table>
 
 🛠️ Technology Stack
 ├── Languages      : Python 3.10+
