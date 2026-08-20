@@ -59,7 +59,7 @@ flowchart TD
     G --> K
     K -- "Yes" --> L
     K -- "No" --> M
-
+------------------------
 🖥️ Dashboard Architecture & Tab Modules
 Module Tab,Core Functionality,Primary Tech / Output
 🚀 AI Demand Forecasting,Real-time demand inference with interactive capacity gauge & live stockout warnings,"XGBoost / Scikit-Learn, Audio API, Gauge"
