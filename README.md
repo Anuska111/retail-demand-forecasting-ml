@@ -59,8 +59,8 @@ flowchart TD
     G --> K
     K -- "Yes" --> L
     K -- "No" --> M
-------------------------
-🖥️ Dashboard Architecture & Tab Modules
+
+    Dashboard Architecture & Tab Modules
 Module Tab,Core Functionality,Primary Tech / Output
 🚀 AI Demand Forecasting,Real-time demand inference with interactive capacity gauge & live stockout warnings,"XGBoost / Scikit-Learn, Audio API, Gauge"
 🌐 3D Inventory Matrix,"3D multidimensional cluster plots across categories, price elasticities, and store limits",Plotly Express 3D Scatter Engine
