@@ -42,13 +42,38 @@ Set-Content -Path README.md -Value @'
   </tbody>
 </table>
 
-🛠️ Technology Stack
-├── Languages      : Python 3.10+
-├── ML / Analytics : XGBoost, Scikit-Learn, Statsmodels, Pandas, NumPy, Joblib
-├── APIs & Web     : Open-Meteo REST API, Requests
-├── Frontend / UI  : Streamlit, Plotly (3D & Indicators), HTML5/CSS3, Web Audio API
-└── Environment    : PyCharm, Git, GitHub, Streamlit Cloud
+### 🛠️ Technology Stack
 
+<table>
+  <thead>
+    <tr>
+      <th align="left">Domain</th>
+      <th align="left">Technologies / Tools</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><b>🐍 Languages</b></td>
+      <td><code>Python 3.10+</code></td>
+    </tr>
+    <tr>
+      <td><b>🧠 ML & Analytics</b></td>
+      <td><code>XGBoost</code>, <code>Scikit-Learn</code>, <code>Statsmodels</code>, <code>Pandas</code>, <code>NumPy</code>, <code>Joblib</code></td>
+    </tr>
+    <tr>
+      <td><b>🌐 APIs & Networking</b></td>
+      <td><code>Open-Meteo REST API</code>, <code>Requests</code></td>
+    </tr>
+    <tr>
+      <td><b>🎨 Frontend & UI</b></td>
+      <td><code>Streamlit</code>, <code>Plotly (3D & Indicators)</code>, <code>HTML5/CSS3</code>, <code>Web Audio API</code></td>
+    </tr>
+    <tr>
+      <td><b>⚙️ Environment & DevOps</b></td>
+      <td><code>PyCharm</code>, <code>Git</code>, <code>GitHub</code>, <code>Streamlit Cloud</code></td>
+    </tr>
+  </tbody>
+</table> 
 📂 Repository File Tree
 retail-demand-forecasting-ml/
 │
