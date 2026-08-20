@@ -59,3 +59,27 @@ flowchart TD
     G --> K
     K -- "Yes" --> L
     K -- "No" --> M
+
+🖥️ Dashboard Architecture & Tab Modules
+Module Tab,Core Functionality,Primary Tech / Output
+🚀 AI Demand Forecasting,Real-time demand inference with interactive capacity gauge & live stockout warnings,"XGBoost / Scikit-Learn, Audio API, Gauge"
+🌐 3D Inventory Matrix,"3D multidimensional cluster plots across categories, price elasticities, and store limits",Plotly Express 3D Scatter Engine
+📊 Analytics & Simulation,"Price sensitivity simulations, competitor pricing index, and historical trends",Dynamic Elasticity Curve Models
+
+🛠️ Technology Stack
+├── Languages      : Python 3.10+
+├── ML / Analytics : XGBoost, Scikit-Learn, Statsmodels, Pandas, NumPy, Joblib
+├── APIs & Web     : Open-Meteo REST API, Requests
+├── Frontend / UI  : Streamlit, Plotly (3D & Indicators), HTML5/CSS3, Web Audio API
+└── Environment    : PyCharm, Git, GitHub, Streamlit Cloud
+
+📂 Repository File Tree
+retail-demand-forecasting-ml/
+│
+├── app.py                     # Main full-stack Streamlit web application
+├── retail_store_inventory.csv # Historical dataset (73,100 rows × 15 features)
+├── retail_demand_model.pkl    # Serialized trained Tree-Ensemble model
+├── model_features.pkl         # Encoded feature column list
+├── category_mappings.pkl      # Categorical dropdown metadata
+├── requirements.txt           # Environment dependencies
+└── README.md                  # Project documentation
